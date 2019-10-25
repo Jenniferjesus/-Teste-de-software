@@ -1,0 +1,322 @@
+{
+  "id": "5dbed59f-276a-4197-a62a-974a8616fcb8",
+  "version": "2.0",
+  "name": "Testes ",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYrsPOjzHzRAyN49WgCEpmay6S1euL3i8YEkgemsgXW4qleQ/viewform",
+  "tests": [{
+    "id": "5ce396ea-3dec-48c8-93ea-6659daa8f6c2",
+    "name": "teste 1",
+    "commands": [{
+      "id": "587f54c6-2caf-4e5b-8929-90a058888215",
+      "comment": "",
+      "command": "open",
+      "target": "/forms/d/e/1FAIpQLSeYrsPOjzHzRAyN49WgCEpmay6S1euL3i8YEkgemsgXW4qleQ/viewform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3d44d45-49e7-49b7-8f8c-afd4d176934c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1468x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4cb494a-fd10-438c-9922-51077daedb7f",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.freebirdFormviewerViewItemList > .freebirdFormviewerViewItemsItemItem .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e6d5920-5918-4d5f-809d-b357ab377e84",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.freebirdFormviewerViewItemList > .freebirdFormviewerViewItemsItemItem .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jmeminha@gmail.com"
+    }, {
+      "id": "d765a7e9-aead-4028-8863-ebe031d3a9b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/span/div/div/label/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75534dd0-2926-4fe3-931c-c7d27e7f8211",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[2]/div/span/div/div[3]/label/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/span/div/div[3]/label/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "339b8c5a-e16e-4999-a0b4-015afb0c7b3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[5]/div/div[2]/div/span/div/div/label/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/span/div/div/label/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a6f0ce7-e1d0-4fe4-b132-62ec5a65f8d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[6]/div/div[2]/div/span/div/label[5]/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//label[5]/div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24801512-caa4-4eee-9b17-d5261ead2d94",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.903805849",
+      "targets": [
+        ["name=entry.903805849", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.903805849']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f312183e-4baa-4e10-b9a2-add834048e86",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.903805849",
+      "targets": [
+        ["name=entry.903805849", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.903805849']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Amo o atendimento de vcs, nao mudaria nada."
+    }, {
+      "id": "6be4d1e0-878e-4b2b-8363-4db8d578f2b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizButtonPaperbuttonLabel",
+      "targets": [
+        ["css=.quantumWizButtonPaperbuttonLabel", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[3]/div[3]/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3d946782-f09e-422a-8e27-7ff1c74cd8df",
+    "name": "teste2",
+    "commands": [{
+      "id": "65265882-02a7-4efb-9192-86d2dbccbdb0",
+      "comment": "",
+      "command": "open",
+      "target": "https://docs.google.com/forms/d/e/1FAIpQLSeYrsPOjzHzRAyN49WgCEpmay6S1euL3i8YEkgemsgXW4qleQ/viewform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8abea468-159b-4094-a6df-104fac9c3cec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1468x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "966d69b7-fec9-4b1f-80ed-5e64a5d66924",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewItemsTextEmail > .quantumWizTextinputPaperinputMainContent",
+      "targets": [
+        ["css=.freebirdFormviewerViewItemsTextEmail > .quantumWizTextinputPaperinputMainContent", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "460a693b-6b58-4736-8da2-f07b167d700f",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.freebirdFormviewerViewItemList > .freebirdFormviewerViewItemsItemItem .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bd85087-e4f8-44bc-825e-5865413f3cfe",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.freebirdFormviewerViewItemList > .freebirdFormviewerViewItemsItemItem .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jmeminha@gmail.com"
+    }, {
+      "id": "118a22ef-68b0-402f-b3f8-ae149592ab21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewNumberedItemContainer:nth-child(2) .freebirdFormviewerViewItemsRadioOptionContainer:nth-child(1) .docssharedWizToggleLabeledLabelWrapper",
+      "targets": [
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(2) .freebirdFormviewerViewItemsRadioOptionContainer:nth-child(1) .docssharedWizToggleLabeledLabelWrapper", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/span/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edb04e80-fe30-4ec5-86ca-50af313d63aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOnRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOnRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/span/div/div/label/div/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53e41280-8379-4367-8fda-fd7edf6a28a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[2]/div/span/div/div[3]/label/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/span/div/div[3]/label/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d18ff6c2-2742-481f-969a-6e5b73a1748a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[5]/div/div[2]/div/span/div/div[3]/label/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/span/div/div[3]/label/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c93c0f5-7bbd-4681-a2ab-8052b8eb1407",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isActive .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.isActive .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[6]/div/div[2]/div/span/div/label[5]/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//label[5]/div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3087b8e-5ff9-4ad4-ad7f-837d014b690c",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.903805849",
+      "targets": [
+        ["name=entry.903805849", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.903805849']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b4585b2-6349-4427-9389-df6b1ece0649",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.903805849",
+      "targets": [
+        ["name=entry.903805849", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.903805849']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70db3d3d-5ac5-4e69-8991-2dd69e2d74f7",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.903805849",
+      "targets": [
+        ["name=entry.903805849", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.903805849']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "amo o atendimeto de vcs, nao mudaria nada."
+    }, {
+      "id": "11c37789-1c55-4539-8dee-f48b8c83aa3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizButtonPaperbuttonLabel",
+      "targets": [
+        ["css=.quantumWizButtonPaperbuttonLabel", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[3]/div[3]/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a4e586-6d39-4819-95ea-933b3d48be51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewResponseConfirmContentContainer",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmContentContainer", "css:finder"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca61f40f-38ff-45e2-91b8-5d2bcc96a054",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.freebirdFormviewerViewResponseConfirmationMessage",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmationMessage", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "obrigada,entregue com sucesso."
+    }]
+  }],
+  "suites": [{
+    "id": "cb8ab4a4-3d00-459d-8ae5-d71b0ef7c047",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ce396ea-3dec-48c8-93ea-6659daa8f6c2"]
+  }],
+  "urls": ["https://docs.google.com/", "https://docs.google.com/forms/d/e/1FAIpQLSeYrsPOjzHzRAyN49WgCEpmay6S1euL3i8YEkgemsgXW4qleQ/viewform"],
+  "plugins": []
+}
